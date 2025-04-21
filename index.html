@@ -16,7 +16,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <style>
   body {
     max-height: 9000px;
-    overflow: hidden;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  body::-webkit-scrollbar {
+    display: none;
   }
   img {
     max-width: 100%;
