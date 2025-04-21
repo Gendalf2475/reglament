@@ -14,13 +14,18 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link rel=File-List href="index_files/filelist.xml">
 <link rel=Edit-Time-Data href="index_files/editdata.mso">
 <style>
-  body {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .wrapper {
     max-height: 9000px;
     overflow: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
-  body::-webkit-scrollbar {
+  .wrapper::-webkit-scrollbar {
     display: none;
   }
   img {
